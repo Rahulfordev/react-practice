@@ -6,6 +6,7 @@ const ShortCutWay = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [userdata, setUserData] = useState([]);
+  //   const [user, setUser] = useState()
 
   const handleName = (e) => {
     setName(e.target.value);
