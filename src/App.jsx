@@ -5,7 +5,11 @@ import "./App.css";
 // import Home from "./components/Data-passing/State-lefting/child-to-parent-2/Home";
 // import Signup from "./components/Signup/Signup";
 // import Toggle1 from "./components/Toggle/Taggle-1/Toggle1";
-import FAQS from "./components/Toggle/Taggle-2/FAQS";
+// import FAQS from "./components/Toggle/Taggle-2/FAQS";
+// Dynamic Color change
+// import DynamicColor from "./components/Dynamic-style/DynamicColor";
+import DynamicColorInput from "./components/Dynamic-style/DynamicColorInput";
+
 function App() {
   return (
     <>
@@ -16,7 +20,10 @@ function App() {
         {/* <Home /> */}
         {/* <Signup /> */}
         {/* <Toggle1 /> */}
-        <FAQS />
+        {/* <FAQS /> */}
+
+        {/* <DynamicColor /> */}
+        <DynamicColorInput />
       </div>
     </>
   );
