@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import "./dynamic.css";
 const DynamicColorInput = () => {
   const [name, setName] = useState("");
   const [validInput, setValidInput] = useState(false);
@@ -22,7 +22,9 @@ const DynamicColorInput = () => {
         type="text"
         value={name}
         onChange={handleChange}
-        style={{ backgroundColor: validInput ? "green" : "red" }}
+        // style={{ backgroundColor: validInput ? "green" : "red" }}
+        // className={`${validInput ? "valid" : "invalid"}`}
+        className={`${validInput && "valid"}`}
       />
     </div>
   );
