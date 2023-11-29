@@ -8,7 +8,9 @@ import "./App.css";
 // import FAQS from "./components/Toggle/Taggle-2/FAQS";
 // Dynamic Color change
 // import DynamicColor from "./components/Dynamic-style/DynamicColor";
-import DynamicColorInput from "./components/Dynamic-style/DynamicColorInput";
+// import DynamicColorInput from "./components/Dynamic-style/DynamicColorInput";
+//Props dilling
+import Components1 from "./components/Props-drilling/Components1";
 
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
         {/* <FAQS /> */}
 
         {/* <DynamicColor /> */}
-        <DynamicColorInput />
+        {/* <DynamicColorInput /> */}
+        <Components1 />
       </div>
     </>
   );
