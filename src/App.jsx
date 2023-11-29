@@ -10,7 +10,8 @@ import "./App.css";
 // import DynamicColor from "./components/Dynamic-style/DynamicColor";
 // import DynamicColorInput from "./components/Dynamic-style/DynamicColorInput";
 //Props dilling
-import Components1 from "./components/Props-drilling/Components1";
+// import Components1 from "./components/Props-drilling/Components1";
+import Components1 from "./components/Context-API/Components1";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 
         {/* <DynamicColor /> */}
         {/* <DynamicColorInput /> */}
+        {/* <Components1 /> */}
         <Components1 />
       </div>
     </>
