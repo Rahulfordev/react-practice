@@ -1,5 +1,6 @@
 export const reducer = (state, action) => {
-  switch (action.type) {
+  const { type } = action;
+  switch (type) {
     case "increment":
       return { count: state.count + 1 };
     case "decrement":
