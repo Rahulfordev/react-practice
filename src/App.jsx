@@ -11,7 +11,9 @@ import "./App.css";
 // import DynamicColorInput from "./components/Dynamic-style/DynamicColorInput";
 //Props dilling
 // import Components1 from "./components/Props-drilling/Components1";
-import Components1 from "./components/Context-API/Components1";
+// import Components1 from "./components/Context-API/Components1";
+// import Reducer from "./components/useReducer/ReducerOne";
+import ReducerTwo from "./components/useReducer/ReducerTwo";
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
         {/* <DynamicColor /> */}
         {/* <DynamicColorInput /> */}
         {/* <Components1 /> */}
-        <Components1 />
+        {/* <Components1 /> */}
+        {/* <Reducer /> */}
+        <ReducerTwo />
       </div>
     </>
   );
