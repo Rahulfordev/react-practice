@@ -12,8 +12,11 @@ import "./App.css";
 //Props dilling
 // import Components1 from "./components/Props-drilling/Components1";
 // import Components1 from "./components/Context-API/Components1";
-import Reducer from "./components/useReducer/ReducerOne";
+// import Reducer from "./components/useReducer/ReducerOne";
 // import ReducerTwo from "./components/useReducer/ReducerTwo";
+// import PersonList from "./RenderinLIst/FilterPerson/PersonList";
+// import NastedItem from "./RenderinLIst/NastedItem/NastedItem";
+import Event from "./components/ReactEvent/Event";
 
 function App() {
   return (
@@ -31,8 +34,11 @@ function App() {
         {/* <DynamicColorInput /> */}
         {/* <Components1 /> */}
         {/* <Components1 /> */}
-        <Reducer />
+        {/* <Reducer /> */}
         {/* <ReducerTwo /> */}
+        {/* <PersonList /> */}
+        {/* <NastedItem /> */}
+        <Event />
       </div>
     </>
   );
