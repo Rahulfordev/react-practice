@@ -15,8 +15,14 @@ import RealRouter from "./components/ReactRouter/real_router/RealRouter";
 // import Components1 from "./components/Context-API/Components1";
 // import Reducer from "./components/useReducer/ReducerOne";
 // import ReducerTwo from "./components/useReducer/ReducerTwo";
+<<<<<<< HEAD
 // import UseRef from "./useRef/UseRef";
 // import Chaining from "./components/Chaining/Chaining";
+=======
+// import PersonList from "./RenderinLIst/FilterPerson/PersonList";
+// import NastedItem from "./RenderinLIst/NastedItem/NastedItem";
+import Event from "./components/ReactEvent/Event";
+>>>>>>> 966219a1d153dcb8e4db1908e301792f4565a214
 
 function App() {
   return (
@@ -36,12 +42,18 @@ function App() {
         {/* <Components1 /> */}
         {/* <Reducer /> */}
         {/* <ReducerTwo /> */}
+<<<<<<< HEAD
         {/* <UseRef /> */}
         {/* <Chaining /> */}
 
         {/* ***** React Router Details ******* */}
 
         <RealRouter />
+=======
+        {/* <PersonList /> */}
+        {/* <NastedItem /> */}
+        <Event />
+>>>>>>> 966219a1d153dcb8e4db1908e301792f4565a214
       </div>
     </>
   );
