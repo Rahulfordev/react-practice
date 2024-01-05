@@ -1,4 +1,5 @@
 import "./App.css";
+import RealRouter from "./components/ReactRouter/real_router/RealRouter";
 // import Form from "./components/Form/Form";
 // import RouteComponent from "./pages/Route";
 // import Parent from "./components/Data-passing/State-lefting/child-to-parent-1/Parent";
@@ -12,8 +13,10 @@ import "./App.css";
 //Props dilling
 // import Components1 from "./components/Props-drilling/Components1";
 // import Components1 from "./components/Context-API/Components1";
-import Reducer from "./components/useReducer/ReducerOne";
+// import Reducer from "./components/useReducer/ReducerOne";
 // import ReducerTwo from "./components/useReducer/ReducerTwo";
+// import UseRef from "./useRef/UseRef";
+// import Chaining from "./components/Chaining/Chaining";
 
 function App() {
   return (
@@ -31,8 +34,14 @@ function App() {
         {/* <DynamicColorInput /> */}
         {/* <Components1 /> */}
         {/* <Components1 /> */}
-        <Reducer />
+        {/* <Reducer /> */}
         {/* <ReducerTwo /> */}
+        {/* <UseRef /> */}
+        {/* <Chaining /> */}
+
+        {/* ***** React Router Details ******* */}
+
+        <RealRouter />
       </div>
     </>
   );

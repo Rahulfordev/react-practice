@@ -25,7 +25,7 @@ const redecer = (state, action) => {
   if (action === "decrement2") {
     return {
       ...state,
-      count2: state.count2 - 1,
+      count2: (state.count2 > 1) - 1,
     };
   }
 };
